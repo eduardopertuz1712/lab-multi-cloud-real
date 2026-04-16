@@ -15,3 +15,4 @@ variable "resource_prefix" {
   type        = string
   default     = "coder-app"
 }
+# fix final
