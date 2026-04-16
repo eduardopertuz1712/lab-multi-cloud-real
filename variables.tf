@@ -1,4 +1,3 @@
-# variables.tf
 variable "aws_region" {
   description = "Región de AWS para desplegar recursos"
   type        = string
