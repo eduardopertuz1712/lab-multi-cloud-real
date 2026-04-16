@@ -28,10 +28,4 @@ provider "aws" {
 # Configuración del proveedor Azure
 provider "azurerm" {
   features {}
-  # Para CI/CD, se recomienda usar Service Principal con GitHub Secrets:
-  # client_id       = var.azure_client_id
-  # client_secret   = var.azure_client_secret
-  # subscription_id = var.azure_subscription_id
-  # tenant_id       = var.azure_tenant_id
-  # Para desarrollo local, 'az login' es suficiente.
 }
